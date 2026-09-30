@@ -2,7 +2,7 @@
 
 > run for testing
 
-- npx expo start
+- npm start/npx expo start
 
 > switch to development build
 
@@ -12,5 +12,7 @@
 
 ## Updates
 
+- Add other code structures
+- Add styles as variable to be reused
 - Update index.js & layout.js to support javascript
 - Convert typescript to javascript

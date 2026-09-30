@@ -1,15 +1,19 @@
 import { router } from "expo-router";
-import { Text, TouchableOpacity, View } from "react-native";
+import { StyleSheet, Text, TouchableOpacity, View } from "react-native";
 
+const styles = StyleSheet.create({
+  container: {
+    alignItems: "center",
+  },
+  view: {
+    flex: 1,
+    justifyContent: "center",
+    alignItems: "center",
+  },
+});
 export default function loginPage() {
   return (
-    <View
-      style={{
-        flex: 1,
-        justifyContent: "center",
-        alignItems: "center",
-      }}
-    >
+    <View style={styles.view}>
       <View
         style={{
           width: "65%",
